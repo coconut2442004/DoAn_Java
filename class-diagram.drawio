@@ -1,0 +1,607 @@
+<mxfile host="65bd71144e">
+    <diagram id="uc_e7FJjv2tgpAPRcoIm" name="Page-1">
+        <mxGraphModel dx="1178" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="BookManagerModel" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="80" width="270" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="+&lt;span style=&quot;font-size: 15px;&quot;&gt;insertDataIntoTable(): void&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;sortAscById(): void&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;sortAscByTitle(): void&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;sortDescByTitle(): void&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;sortDescById(): void&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;addBook(): bool&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;deleteBook(): bool&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;editBook():bool&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;findBook():bool&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="2" vertex="1">
+                    <mxGeometry y="30" width="270" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="LoginModel" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="80" width="225" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="&lt;div style=&quot;font-size: 15px; line-height: 20px;&quot;&gt;+checkLogin(): bool&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=default;fontFamily=Helvetica;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="4" vertex="1">
+                    <mxGeometry y="30" width="225" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="BorrowTicketManagerModel" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="80" width="248" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;insertDataIntoTable():void&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;+borrowBook(): bool&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;+deleteBorrowTicket(): bool&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;+editBorrowTicket(): bool&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;+sortAscById(): void&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;+sortDescById(): void&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;+findBorrowTicket(): bool&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=default;fontFamily=Helvetica;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="6" vertex="1">
+                    <mxGeometry y="30" width="248" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="LoginGui" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="80" width="225" height="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="- loginButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="30" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="- titlePage : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="56" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="- textFieldUsername : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="82" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="- textFieldPassword : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="108" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="- labelUsername : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="134" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="- labelPassword : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="160" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="- labelNotification : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="186" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="212" width="225" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="+ getLabelNotification(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="220" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="+ setLabelNotification(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="246" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="+ getLoginButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="272" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="+ setLoginButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="298" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="+ getTitlePage(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="324" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="+ setTitlePage(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="350" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="+ getTextFieldUsername(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="376" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="+ setTextFieldUsername(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="402" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="+ getTextFieldPassword(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="428" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="+ setTextFieldPassword(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="454" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="+ getLabelUsername(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="480" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="+ setLabelUsername(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="506" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="+ getLabelPassword(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="532" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="+ setLabelPassword(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="558" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="+ LoginGui()" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="21" vertex="1">
+                    <mxGeometry y="584" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="BookManagementGui" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="690" width="225" height="1390" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="- tableModel : TableModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="30" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="- table : JTable" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="56" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="- bookCodeField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="82" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="- bookTitleField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="108" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="- authorField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="134" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="- statusField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="160" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="- bookCodeLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="186" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="- bookTitleLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="212" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="- authorLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="238" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="- statusLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="264" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="- addButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="290" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="- deleteButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="316" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="- editButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="342" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="- newButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="368" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="- findButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="394" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="- backButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="420" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="- comboBox : JComboBox&lt;string&gt;&amp;lt;String&amp;gt;&lt;/string&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="446" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="472" width="225" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="+ getFindButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="480" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="+ setFindButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="506" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="+ getbackButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="532" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="+ setbackButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="558" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="+ getNewButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="584" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="+ setNewButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="610" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="+ getTableModel(): TableModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="636" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="+ setTableModel(TableModel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="662" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="+ getTable(): JTable" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="688" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="+ setTable(JTable): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="714" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="+ getBookCodeField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="740" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="+ setBookCodeField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="766" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="+ getBookTitleField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="792" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="+ setBookTitleField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="818" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="+ getAuthorField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="844" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="+ setAuthorField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="870" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="+ getStatusField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="896" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="+ setStatusField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="922" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="+ getBookCodeLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="948" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="+ setBookCodeLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="974" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="+ getBookTitleLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1000" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="+ setBookTitleLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1026" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="+ getAuthorLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1052" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="+ setAuthorLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1078" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="+ getStatusLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1104" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="+ setStatusLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1130" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="+ getAddButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1156" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="+ setAddButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1182" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="+ getDeleteButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1208" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="+ setDeleteButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1234" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="+ getEditButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1260" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="+ setEditButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1286" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="+ getComboBox(): JComboBox&lt;string&gt;&amp;lt;String&amp;gt;&lt;/string&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1312" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="+ setComboBox(JComboBox&lt;string&gt;): void&lt;/string&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1338" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="+ BookManagementGui()" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="45" vertex="1">
+                    <mxGeometry y="1364" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="BorrowTicketManagementGui" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="690" width="225" height="1702" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="- tableModel : TableModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="30" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="- table : JTable" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="56" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="- borrowTicketCodeField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="82" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="- readerField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="108" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="- bookCodeField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="134" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="- statusField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="160" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="- borrowDateField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="186" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="- returnDateField : JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="212" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="- borrowTicketCodeLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="238" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="- readerLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="264" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="- bookCodeLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="290" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="- statusLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="316" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="- borrowDateLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="342" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="- returnDateLabel : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="368" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="- addButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="394" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="- deleteButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="420" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="- editButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="446" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="- newButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="472" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="- findButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="498" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="- comboBox : JComboBox&lt;string&gt;&amp;lt;String&amp;gt;&lt;/string&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="524" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="- backButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="550" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="576" width="225" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="+ getFindButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="584" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="+ setFindButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="610" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="+ getBorrowDateLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="636" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="+ setBorrowDateLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="662" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="+ getReturnDateLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="688" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="+ setReturnDateLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="714" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="+ getBorrowDateField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="740" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="+ setBorrowDateField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="766" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="+ getReturnDateField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="792" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="+ setReturnDateField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="818" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="+ getTableModel(): TableModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="844" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="+ setTableModel(TableModel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="870" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="+ getTable(): JTable" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="896" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="+ setTable(JTable): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="922" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="+ getBorrowTicketCodeField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="948" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="+ setBorrowTicketCodeField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="974" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="+ getReaderField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1000" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="+ setReaderField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1026" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="+ getBookCodeField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1052" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="+ setBookCodeField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1078" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="+ getStatusField(): JTextField" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1104" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="+ setStatusField(JTextField): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1130" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="+ getBorrowTicketCodeLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1156" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="+ setBorrowTicketCodeLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1182" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="+ getReaderLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1208" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="+ setReaderLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1234" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="+ getBookCodeLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1260" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="+ setBookCodeLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1286" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="+ getStatusLabel(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1312" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="+ setStatusLabel(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1338" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="+ getAddButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1364" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="+ setAddButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1390" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="+ getDeleteButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1416" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="+ setDeleteButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1442" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="+ getEditButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1468" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="+ setEditButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1494" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="+ getNewButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1520" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="+ setNewButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1546" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="+ getComboBox(): JComboBox&lt;string&gt;&amp;lt;String&amp;gt;&lt;/string&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1572" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="+ setComboBox(JComboBox&lt;string&gt;): void&lt;/string&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1598" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="+ getBackButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1624" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="+ setBackButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1650" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="+ BorrowTicketManagementGui()" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="99" vertex="1">
+                    <mxGeometry y="1676" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="MenuGui" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="730" width="225" height="454" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="- optionPanel : JPanel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="30" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="- menuTitle : JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="56" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="- buttonLinkToBookManager : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="82" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="- buttonLinkToBorrowTicketManager : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="108" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="- logButton : JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="134" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="160" width="225" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="+ getLogButton(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="168" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="+ setLogButton(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="194" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="+ getOpntioPanel(): JPanel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="220" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="+ setOpntioPanel(JPanel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="246" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="+ getMenuTitle(): JLabel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="272" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="+ setMenuTitle(JLabel): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="298" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="+ getButtonLinkToBookManager(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="324" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="+ setButtonLinkToBookManager(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="350" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="+ getButtonLinkToBorrowTicketManager(): JButton" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="376" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="+ setButtonLinkToBorrowTicketManager(JButton): void" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="402" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="+ MenuGui()" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="165" vertex="1">
+                    <mxGeometry y="428" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="DatabaseUtils" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="611.5" y="330" width="225" height="168" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="+ c : Connection" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;labelBackgroundColor=none;" parent="183" vertex="1">
+                    <mxGeometry y="30" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="- db_url : String" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;labelBackgroundColor=none;" parent="183" vertex="1">
+                    <mxGeometry y="56" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="- username : String" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;labelBackgroundColor=none;" parent="183" vertex="1">
+                    <mxGeometry y="82" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="- password : String" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;labelBackgroundColor=none;" parent="183" vertex="1">
+                    <mxGeometry y="108" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;labelBackgroundColor=none;" parent="183" vertex="1">
+                    <mxGeometry y="134" width="225" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="+ getConnection(): Connection" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;labelBackgroundColor=none;" parent="183" vertex="1">
+                    <mxGeometry y="142" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="SiteController" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;strokeColor=#FFFFFF;fillColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="360" width="225" height="246" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="- loginView : LoginGui" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="30" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="- bookManagementView : BookManagementGui" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="56" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="- borrowTicketManagerView : BorrowTicketManagementGui" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="82" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="- menuView : MenuGui" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="108" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="- loginModel : LoginModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="134" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="- bookManagerModel : BookManagerModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="160" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="- borrowTicketManagerModel : BorrowTicketManagerModel" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="186" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="212" width="225" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="+ SiteController()" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" parent="196" vertex="1">
+                    <mxGeometry y="220" width="225" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.507;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="196" target="192">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="430" y="450" as="sourcePoint"/>
+                        <mxPoint x="590" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="207" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.471;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="200" target="194">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="543.11" y="459.02" as="sourcePoint"/>
+                        <mxPoint x="425.0000000000001" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="209" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="200" target="195">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="400" y="534" as="sourcePoint"/>
+                        <mxPoint x="540.9749999999999" y="195.01" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="212" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.493;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="205" target="45">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="330" y="480" as="sourcePoint"/>
+                        <mxPoint x="621.5" y="435" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="213" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="200" target="43">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="280" y="660" as="sourcePoint"/>
+                        <mxPoint x="222.5" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="214" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="200" target="99">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="335" y="491" as="sourcePoint"/>
+                        <mxPoint x="622.5" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="215" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="200" target="166">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="335" y="491" as="sourcePoint"/>
+                        <mxPoint x="592.5" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
